@@ -3,21 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css-practice</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .nav{
+            background-color: red;
+            color: blue;
+        }
+        .image{
+            border: 2px solid black;
+        }
+        .image img{
+            height: 60px;
+           
+        }
+        .section h1{
+            text-align: center;
+
+        }
+        .section{
+            border: 2px solid black;
+        } 
+        .section p{
+            text-align: justify;
+        }
+        .footer{
+            background: black;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>hello world</h1>
-    <div class="para">
-    <p>Lorem, ipsum dolor.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, in aspernatur? Quis?</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione!</p>
-</div>
-<div class="logo">
-    <img src="images/chaiwala.jpg" alt="">
-    <img src="images/kirmada.jpg" alt="">
-    <img src="images/image.png" alt="">
-</div>
-
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>blog</li>
+            <li>portfolio</li>
+        </ul>
+    </div>
+    <section class="image">
+        <img src="images/chaiwala.jpg" alt="">
+        <img src="images/kirmada.jpg" alt="">
+        <img src="images/image.png" alt="">
+        <span>text yaha aana chahiye ise span me likhiyega</span>
+    </section>
+    <div class="section">
+        <h1>this is my portfolio</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id reiciendis nihil accusamus, expedita veniam neque reprehenderit eaque, earum delectus tempora doloremque. Sed fugit sapiente blanditiis.</p>
+    </div>
+    <footer>
+        <div class="footer">
+            <address>india</address>
+            phone no - 902123432203
+        </div>
+    </footer>
 </body>
 </html>
